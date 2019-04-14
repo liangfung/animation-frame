@@ -1,0 +1,17 @@
+.sprite-wp {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.sprite {
+  background: url('../../image/image.jpg') no-repeat center;
+  width: 6000px;
+  height: 300px;
+  animation: frame 333ms steps(20) both infinite;
+}
+
+@keyframes frame {
+  0% {transform: translateX(0)}
+  100% {transform: translateX(-6000px)}
+}
